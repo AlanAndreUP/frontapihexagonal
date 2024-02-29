@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --primary-color: #038BBB;
+  --secondary-color: #E19F41;
+  --contrast: #03223F;
+  --light: #FCCB6F;
+}
+
+ body {
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.flex-col-center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,12 @@
+
+
+.CardImage{
+    position: relative;
+    width: 50%;
+    
+}
+
+.CardImage .Image{
+    width: 100%;
+    object-fit: cover;
+}

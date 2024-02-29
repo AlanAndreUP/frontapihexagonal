@@ -1,0 +1,38 @@
+.Home{
+    width: 100%;
+    background-color: var(--contrast);
+    background: url('../../public/main-background.png') center;
+    height: 100vh; 
+    overflow-y: auto;
+}
+
+.welcome{
+    width: 80%;
+    margin-top: 5vh;
+    gap: 3em;
+}
+
+.welcome article{
+    background: url('../../public/card1-background.png') center;
+    width: 100%;
+    color: var(--contrast);
+    border-radius: 1em;
+    height: 80vh;
+    justify-content: space-between;
+    padding: 2em;
+    
+    
+    & h2{
+        font-size: 5em;
+    }
+
+    & h3{
+        font-size: 3em;
+    }
+
+    & p{
+        text-align: center;
+        font-size: 2em;
+        width: 60%;
+    }
+}

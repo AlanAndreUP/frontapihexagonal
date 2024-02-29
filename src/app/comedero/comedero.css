@@ -1,0 +1,41 @@
+
+
+.login{
+
+    width: 100%;
+    background: url('../../../public/anadir-comedero.png') center;
+    height: 100vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login form {
+
+    width: 30%;
+    background-color: var(--contrast);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4em 6em;
+    border-radius: 1em;
+    height: 70vh;
+    box-shadow: 0 0 10px #757575;
+    backdrop-filter: blur(30px);
+}
+
+
+@media (max-width: 568px) {
+    .login form {
+        width: 90%;
+        padding: 2em 2em;
+        height: 80vh;
+        gap: 1em;
+        background: white;
+    }    
+}
+
+

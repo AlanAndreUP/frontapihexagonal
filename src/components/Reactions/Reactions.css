@@ -1,0 +1,18 @@
+.reactionsContainer{
+    position: absolute;
+    bottom: 0;
+    padding: 1em;
+    left: 20px;
+    width: 12vw;
+    border-radius: 1em 1em 0 0;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+    align-items: center;
+    background-color: #003a71;
+}
+
+.reaction {
+    height: 4vh;
+}
